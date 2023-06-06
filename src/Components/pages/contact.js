@@ -9,6 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react'
 import "https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+import logo from "../Images/Rent_logo-removebg-preview.png"
 
 
 function Contact(){
@@ -115,6 +116,8 @@ function Contact(){
                               <h5 class="h5_1">Email us</h5>
                               <h5 class="h5_2">rental@agriindia.org</h5>
                        </div>
+
+                    
          <Contact_footer />
      </div>
 

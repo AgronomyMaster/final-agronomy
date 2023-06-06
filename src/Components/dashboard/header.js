@@ -16,6 +16,7 @@ import "../pages/styles/cartcount.css";
 import axios from "axios";
 import { useEffect } from "react";
 import Website_logo from "../Images/website-logo-new2.png"
+import logo from "../Images/Rent_logo-removebg-preview.png"
 
 
 
@@ -304,11 +305,14 @@ function Header() {
         </nav>
 
 
-
+        <div class="logo111">
+              <img src={logo} />
+            </div>
       </header>
       <div class="logo">
           <img class="website_logo" src={Website_logo} />
         </div>
+        
       </>
 
 

@@ -171,6 +171,8 @@ margin-left:65px;
   font-weight: 600;
   font-size: 15px;
   transition: all 0.2s ease;
+  margin-bottom: 50px;
+  position: static;
 }
 .cart-btn{
   margin-bottom: 10px;

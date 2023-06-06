@@ -763,6 +763,7 @@ margin-left: -13px;
     background-color: green;
     color:white;
     border:none;
+    margin-bottom:70px;
 }
 .prohhh button:hover{
     background-color: rgb(6, 159, 6);
@@ -774,6 +775,9 @@ hr{
     width:150px;
     background-color:black;
 }
-
-
-
+.logo111 img{
+    height:50vh;
+    margin-top:-70px;
+    position: fixed;
+    margin-left:0px;
+}

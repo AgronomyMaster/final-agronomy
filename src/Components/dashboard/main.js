@@ -16,6 +16,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import invert_arrows from "../Images/invert-arrows.png"
+import logo from "../Images/Rent_logo-removebg-preview.png"
 
 
 function Main(){
@@ -88,7 +89,7 @@ function Main(){
           Cultivator
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Agricultural Machine Cultivator Weeder Land Cultivators for Tractor- Extra Heavy Duty Spring Loaded Cultivator
+        Agricultural Machine Cultivator Weeder Land Cultivators for Tractor- Extra Heavy Duty 
         </Typography>
       </CardContent>
       <Link to="#"><button className='card-btn'>Add to Cart</button></Link>
@@ -112,26 +113,28 @@ function Main(){
       <Link to="#"><button className='card-btn'>Add to Cart</button></Link>
     </Card>
     </div>
-    <button class="more-products">More Products &minus;&#10095;</button>
+    <Link to="/products"><button class="more-products">More Products &minus;&#10095;</button></Link>
             <div class="importance" >
                <h2>Why Digitalized Smart Agronomy ?</h2>
                <div class="importance-para"><p>The farm equipment rental market is estimated to account for a value of USD 46.8 billion in 2020 and is projected to grow at a CAGR of 7.3% from 2020, to reach a value of USD 66.4 billion by 2025. The global market is projected to witness significant growth due to factors such as the rise in the global population, shortage of skilled labor, increasing mechanization trends and rising demand for food grain products have fueled technological advancements across the globe are some of the major factors fueling the demand for farm equipment rental.<br></br>
                <br></br>Investments in various agriculture machinery have also led to increased crop production, particularly in developing countries such as India, China, Vietnam, and Thailand. <br></br><br></br>
                Renting allows you to use the equipment without having to worry about selling it when you’re done.
                You don’t have the hassle of trying to resell the equipment when you rent, which is why renting can save time and money in many cases. Renting makes it easy for you to get the equipment you need for a specific job, use it and then return it when your work is complete.</p></div>
-               <img  class="agri-importance-img" src={Importance} />
+               <img alt="agri-importance" class="agri-importance-img" src={Importance} />
             </div>
             <div class="market" >
             <h2>Global Agricutural  Equipment Market</h2>
                <img class="img"src={agri_market1} alt="agricultural market"/>
                <img class="img"src={agri_market2} alt="agricultural market" />
-               <img class="invert-arrows" src={invert_arrows} />
+               <img alt="invert-arrows" class="invert-arrows" src={invert_arrows} />
             </div>
+
+            {/* <div class="logo111">
+              <img src={logo} />
+            </div> */}
             
            
             <Footer />
-            
-            
     </div>
     
     
